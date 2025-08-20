@@ -1,2 +1,2 @@
 # Autonomous-Carlike-Robot-for-Real-Time-Target-Following
-An autonomous car-like robot for real-time target following. The system, powered by an NVIDIA Jetson Nano, uses an Intel RealSense D435 camera with an integrated IMU for 3D perception and state estimation. MobileNet SSD handles object tracking, while precise and stable motion is achieved using Lyapunov optimization and Robust Sliding Mode Control.
+An autonomous car-like robot for real-time target following. The system, powered by an NVIDIA Jetson Nano, uses an Intel RealSense D435i camera with an integrated IMU for 3D perception and state estimation. MobileNet SSD handles object tracking, while precise and stable motion is achieved using Lyapunov optimization and Robust Sliding Mode Control.
