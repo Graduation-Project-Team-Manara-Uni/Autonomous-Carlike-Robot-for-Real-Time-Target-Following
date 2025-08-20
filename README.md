@@ -123,6 +123,6 @@ Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
 
 ---
 ## License:
-   This project is licensed under the [MIT License](LICENSE).
+   This project is licensed under the [License](LICENSE).
 
 ---
