@@ -93,7 +93,7 @@ Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
      Ensure you have ROS Noetic installed.
      write roslaunch carlike robot.launch on the terminal.
   5.  How to run the project.
-     write ```python3 IMU.py & vision.py & controller.py on the terminal```
+     write ```python3 IMU.py & vision.py & controller.py```
 ---
 ## Robot Design
    Assembled Robot:
