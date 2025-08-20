@@ -1,46 +1,85 @@
-# Autonomous-Carlike-Robot-for-Real-Time-Target-Following 
-# 1.Project Description
-An autonomous car-like robot for real-time target following. The system, powered by an NVIDIA Jetson Nano, uses an Intel RealSense D435i camera with an integrated IMU for 3D perception and state estimation. MobileNetv2 SSD handles object tracking, while precise and stable motion is achieved using Lyapunov optimization and Robust Sliding Mode Control.
+# Autonomous Car-like Robot for Real-Time Target Following  
 
-# 2.Table of Contents
-    
-# 3.Overview
-the goal of this project is to design and implement an autonomous car-like robot that can follow a moving target in real-time and keep a desired distance between the robot and the target.
-the project combines Computer Vision and Control Theory to achieve this goal. The Project has bee simulated using MATLAB/SIMULINK and ROS (RVIZ 3D visualization tool). The experimental results has been measured for following human body in multi-object enviroment (obstacle avoidance is not included). The enviroment should contain only one object of the person class.
+An autonomous car-like robot capable of following a moving target in real-time. Powered by an **NVIDIA Jetson Nano** and an **Intel RealSense D435i** depth camera with an integrated IMU, the system combines **Computer Vision** and **Control Theory** to achieve robust performance.  
 
-# 4.Features
-- Target detection using MobileNetv2 SSD in real-time
-- Car-like (Anti-Ackermann steering) kinematics
-- Car-like (differential mechanism driving force) kinematics
-- MATLAB/Simulink simulation of control algorithms
-- ROS/RVIZ simulation
-- MATLAB/system identification for DC Motor parameters
-- MATLAB/curve fitting for steering angle
-- Python main codes
-  
-# 5.Project Structure
--Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
-   python_codes/
-            controller.py
-            vision.py
-            IMU.py
-   matlab_simulation/
-            Simulink.slx
-            Animation.m
-            Parameters.m
-  system identification/
-            DC_motor_data.m
-            DC_motor_system_identification_tool.sid
-  curve fitting/
-            steering_angle_data.m
-            steering_curve_fitting_tool.sfit
-  ros_simulation/
-        launch/
-        worlds/
-        src/
-        README.md
-        LICENSE
-# 6. Installation and Usage
+- **Object detection**: MobileNetV2-SSD for real-time tracking  
+- **Control**: Lyapunov optimization & Robust Sliding Mode Control  
+- **Simulation**: MATLAB/Simulink and ROS (RViz visualization)  
+- **Applications**: Human-following robots, autonomous ground vehicles, research & teaching  
+
+---
+
+## 📑 Table of Contents
+1. [Overview](#-overview)  
+2. [Features](#-features)  
+3. [Project Structure](#-project-structure)  
+4. [Installation & Usage](#️-installation--usage)  
+5. [Robot Design](#-robot-design)  
+6. [Simulations & Results](#-simulations--results)  
+7. [Team Members](#-team-members)  
+8. [License](#-license)  
+
+---
+
+## 🚘 Overview  
+The goal of this project is to design and implement an **autonomous car-like robot** that can:  
+- Follow a moving target in real-time  
+- Maintain a desired distance between robot and target  
+- Handle car-like (non-holonomic) kinematics  
+
+The project has been tested through:  
+- **MATLAB/Simulink simulations** (control & system identification)  
+- **ROS & RViz visualization**  
+- **Experimental validation** on a real robot following a human in a multi-object environment  
+
+⚠️ Note: Obstacle avoidance is **not included**. The environment should contain only one object of the "person" class.  
+
+---
+
+## ✨ Features  
+- ✅ Real-time target detection with MobileNetV2 SSD  
+- ✅ Car-like kinematics (Anti-Ackermann steering)  
+- ✅ Differential mechanism driving force  
+- ✅ MATLAB/Simulink simulations of control algorithms  
+- ✅ ROS/RViz simulation environment  
+- ✅ System identification for DC motor parameters  
+- ✅ Steering angle curve fitting (MATLAB)  
+- ✅ Python main control & vision codes  
+
+---
+
+## 📂 Project Structure  
+```plaintext
+Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
+│
+├── python_codes/
+│   ├── controller.py
+│   ├── vision.py
+│   └── IMU.py
+│
+├── matlab_simulation/
+│   ├── Simulink.slx
+│   ├── Animation.m
+│   └── Parameters.m
+│
+├── system_identification/
+│   ├── DC_motor_data.m
+│   └── DC_motor_system_identification_tool.sid
+│
+├── curve_fitting/
+│   ├── steering_angle_data.m
+│   └── steering_curve_fitting_tool.sfit
+│
+├── ros_simulation/
+│   ├── launch/
+│   ├── worlds/
+│   ├── src/
+│   └── README.md
+│
+├── LICENSE
+└── README.md
+```
+## 6. Installation and Usage
   1. Clone the repository:
    git clone https://github.com/Graduation-Project-team-manara-uni/Autonomous-Carlike-Robot-for-Real-Time-Target-Following.git
    cd Autonomous-Carlike-Robot-for-Real-Time-Target-Following
@@ -54,7 +93,7 @@ the project combines Computer Vision and Control Theory to achieve this goal. Th
      write roslaunch carlike robot.launch on the terminal.
   5.  How to run the project.
      write python3 IMU.py and vision.py and controller.py on the terminal
-# 7. Robot Design:
+## 7. Robot Design:
    Assembled Robot:
    <img width="1078" height="450" alt="image" src="https://github.com/user-attachments/assets/ac2cd55e-d18c-4170-8212-73894de6b0d3" />
    <img width="573" height="450" alt="image" src="https://github.com/user-attachments/assets/6a59f33f-ecf0-482f-bd17-0a81143dc047" />
@@ -65,12 +104,12 @@ the project combines Computer Vision and Control Theory to achieve this goal. Th
    <img width="513" height="374" alt="image" src="https://github.com/user-attachments/assets/8ccf7e98-fe7a-4307-baee-d66c7f069be3" />
    <img width="644" height="374" alt="image" src="https://github.com/user-attachments/assets/abfd6348-1e18-4a6d-9dbd-9b358fc8f7e0" />
 
-# 8. Simulations & Experimental Results:
+## 8. Simulations & Experimental Results:
    
 
-# 9. Team Members:
+## 9. Team Members:
    [karam alhawat](https://github.com/karamalhawat)
    [Ali Ali](https://github.com/AliB0239)
    [Saleh Rabea](https://github.com/Saleh-Rabea)
-# 10.License:
+## 10.License:
    This project is licensed under the [MIT License](LICENSE).
