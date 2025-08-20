@@ -79,7 +79,8 @@ Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
 ├── LICENSE
 └── README.md
 ```
-## 6. Installation and Usage
+---
+## Installation & Usage
   1. Clone the repository:
    git clone https://github.com/Graduation-Project-team-manara-uni/Autonomous-Carlike-Robot-for-Real-Time-Target-Following.git
    cd Autonomous-Carlike-Robot-for-Real-Time-Target-Following
@@ -93,7 +94,8 @@ Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
      write roslaunch carlike robot.launch on the terminal.
   5.  How to run the project.
      write ```python3 IMU.py and vision.py and controller.py on the terminal```
-## 7. Robot Design:
+---
+## Robot Design
    Assembled Robot:
 
    
@@ -110,12 +112,17 @@ Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
    <img width="400"  alt="image" src="https://github.com/user-attachments/assets/8ccf7e98-fe7a-4307-baee-d66c7f069be3" />
    <img width="400"  alt="image" src="https://github.com/user-attachments/assets/abfd6348-1e18-4a6d-9dbd-9b358fc8f7e0" />
 
-## 8. Simulations & Experimental Results:
+---
+## Simulations & Results
    
-
-## 9. Team Members:
+---
+## Team Members:
    [karam alhawat](https://github.com/karamalhawat)
    [Ali Ali](https://github.com/AliB0239)
    [Saleh Rabea](https://github.com/Saleh-Rabea)
-## 10.License:
+
+---
+## License:
    This project is licensed under the [MIT License](LICENSE).
+
+---
