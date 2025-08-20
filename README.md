@@ -17,6 +17,7 @@ the project combines Computer Vision and Control Theory to achieve this goal. Th
 - MATLAB/system identification for DC Motor parameters
 - MATLAB/curve fitting for steering angle
 - Python main codes
+  
 5.Project Structure
 -Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
    python_codes/
@@ -31,14 +32,14 @@ the project combines Computer Vision and Control Theory to achieve this goal. Th
             DC_motor_data.m
             DC_motor_system_identification_tool.sid
   curve fitting/
-      steering_angle_data.m
-      steering_curve_fitting_tool.sfit
+            steering_angle_data.m
+            steering_curve_fitting_tool.sfit
   ros_simulation/
-      launch/
- worlds/
-│   └── src/
-│── README.md
-│── LICENSE
+        launch/
+        worlds/
+        src/
+        README.md
+        LICENSE
 6. Installation and Usage
   1. Clone the repository:
    git clone https://github.com/Graduation-Project-team-manara-uni/Autonomous-Carlike-Robot-for-Real-Time-Target-Following.git
