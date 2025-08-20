@@ -111,9 +111,34 @@ Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
   
    <img width="400"  alt="image" src="https://github.com/user-attachments/assets/8ccf7e98-fe7a-4307-baee-d66c7f069be3" />
    <img width="400"  alt="image" src="https://github.com/user-attachments/assets/abfd6348-1e18-4a6d-9dbd-9b358fc8f7e0" />
+   <img width="400"  alt="image" src="https://github.com/user-attachments/assets/9e945814-232b-42d8-a98b-5d10cf679639" />
+   <img width="400"  alt="image" src="https://github.com/user-attachments/assets/2a408982-03ed-407b-a261-3d413de1d184" />
+   <img width="400"  alt="image" src="https://github.com/user-attachments/assets/29dcdfc3-d201-42a1-9d8e-acced589ad59" />
 
 ---
 ## Simulations & Results
+  object detection and computer vision rsults:
+  <img width="1907"  alt="image" src="https://github.com/user-attachments/assets/f17872eb-a6cb-4c5d-b86b-bba58827df49" />
+
+  steering angle curve fitting results:
+  <img width="1501"  alt="image" src="https://github.com/user-attachments/assets/13cc8101-25c4-4d3f-8141-adbc1f081652" />
+
+  <img width="1494"  alt="image" src="https://github.com/user-attachments/assets/f4ef3d22-8108-4240-8c1e-da244f2c123b" />
+
+  Dc parameters estmiation:
+  <img width="967"  alt="image" src="https://github.com/user-attachments/assets/96f9cef2-1ba5-4fb4-b56d-c0374970fa46" />
+  matlab simulation results for static object:
+  <img width="1995" alt="image" src="https://github.com/user-attachments/assets/c9d8db0f-3829-421b-9c6c-7f04b05a0a0f" />
+  matlab simulation results for moving object:
+  <img width="1990"  alt="image" src="https://github.com/user-attachments/assets/424bd683-a5f6-41f2-b31b-a1435217b470" />
+
+  Experemental Results:
+  <img width="1788"  alt="image" src="https://github.com/user-attachments/assets/f1824d52-45c5-411b-b774-29dc35a965ac" />
+  <img width="1540"  alt="image" src="https://github.com/user-attachments/assets/9104ae03-1b51-4507-843a-983ca2b702d0" />
+  <img width="1417"  alt="image" src="https://github.com/user-attachments/assets/61466259-6d70-4778-b7ca-b233bc167c10" />
+
+
+    
    
 ---
 ## Team Members:
