@@ -5,7 +5,7 @@ An autonomous car-like robot capable of following a moving target in real-time. 
 - **Object detection**: MobileNetV2-SSD for real-time tracking  
 - **Control**: Lyapunov optimization & Robust Sliding Mode Control  
 - **Simulation**: MATLAB/Simulink and ROS (RViz visualization)  
-- **Applications**: object-following (leader-folloeing) robots, autonomous ground vehicles, research & teaching  
+- **Applications**: object-following (leader-following) robots, autonomous ground vehicles, research & teaching  
 
 ---
 
