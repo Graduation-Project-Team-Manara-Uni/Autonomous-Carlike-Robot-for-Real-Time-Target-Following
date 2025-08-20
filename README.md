@@ -30,9 +30,9 @@ The goal of this project is to design and implement an **autonomous car-like rob
 The project has been tested through:  
 - **MATLAB/Simulink simulations** (control & system identification)  
 - **ROS & RViz visualization**  
-- **Experimental validation** on a real robot following a human in a multi-object environment  
+- **Experimental validation** on a real robot following a object in a multi-object environment  
 
-⚠️ Note: Obstacle avoidance is **not included**. The environment should contain only one object of the "person" class.  
+⚠️ Note: Obstacle avoidance is **not included**. The environment should contain only one object of the "object" class.  
 
 ---
 
@@ -99,6 +99,7 @@ Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
    <img width="500"  alt="image" src="https://github.com/user-attachments/assets/6a59f33f-ecf0-482f-bd17-0a81143dc047" />
    <img width="500"  alt="image" src="https://github.com/user-attachments/assets/a07bab66-7124-49aa-b457-c61811bfdbb6" />
    <img width="500"  alt="image" src="https://github.com/user-attachments/assets/2ff2c59a-bf2f-47a8-9644-fb8ca0205ceb" />
+   
   Fabricated Parts:
    <img width="400"  alt="image" src="https://github.com/user-attachments/assets/8ccf7e98-fe7a-4307-baee-d66c7f069be3" />
    <img width="400"  alt="image" src="https://github.com/user-attachments/assets/abfd6348-1e18-4a6d-9dbd-9b358fc8f7e0" />
