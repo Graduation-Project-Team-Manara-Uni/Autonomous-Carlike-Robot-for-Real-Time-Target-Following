@@ -2,7 +2,7 @@
 1.Project Description
 An autonomous car-like robot for real-time target following. The system, powered by an NVIDIA Jetson Nano, uses an Intel RealSense D435i camera with an integrated IMU for 3D perception and state estimation. MobileNetv2 SSD handles object tracking, while precise and stable motion is achieved using Lyapunov optimization and Robust Sliding Mode Control.
 2.Table of Contents
-
+    
 3.Overview
 the goal of this project is to design and implement an autonomous car-like robot that can follow a moving target in real-time and keep a desired distance between the robot and the target.
 the project combines Computer Vision and Control Theory to achieve this goal. The Project has bee simulated using MATLAB/SIMULINK and ROS (RVIZ 3D visualization tool). The experimental results has been measured for following human body in multi-object enviroment (obstacle avoidance is not included). The enviroment should contain only one object of the person class.
@@ -17,11 +17,11 @@ the project combines Computer Vision and Control Theory to achieve this goal. Th
 - Python main codes
 5.Project Structure
   Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
-│── python_codes/
-│   ├── controller.py
-│   ├── vision.py
-│   └── IMU.py
-│── matlab_simulation/
+   python_codes/
+           controller.py
+           vision.py
+           IMU.py
+   matlab_simulation/
 │   ├── Simulink.slx
 │   ├── Animation.m
 │   └── Parameters.m
