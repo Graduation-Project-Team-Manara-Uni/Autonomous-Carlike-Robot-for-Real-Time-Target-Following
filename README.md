@@ -30,7 +30,7 @@ The goal of this project is to design and implement an **autonomous car-like rob
 The project has been tested through:  
 - **MATLAB/Simulink simulations** (control & system identification)  
 - **ROS & RViz visualization**  
-- **Experimental validation** on a real robot following a object in a multi-object environment  
+- **Experimental validation** on a real robot following a human (person) in a multi-object environment  
 
 ⚠️ Note: Obstacle avoidance is **not included**. The environment should contain only one object of the "object" class.  
 
