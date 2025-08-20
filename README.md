@@ -100,7 +100,6 @@ Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
    <img width="500"  alt="image" src="https://github.com/user-attachments/assets/a07bab66-7124-49aa-b457-c61811bfdbb6" />
    <img width="500"  alt="image" src="https://github.com/user-attachments/assets/2ff2c59a-bf2f-47a8-9644-fb8ca0205ceb" />
   Fabricated Parts:
-   <img width="400"  alt="image" src="https://github.com/user-attachments/assets/290bf0db-97ed-40cd-84a2-e5699b4651df" />
    <img width="400"  alt="image" src="https://github.com/user-attachments/assets/8ccf7e98-fe7a-4307-baee-d66c7f069be3" />
    <img width="400"  alt="image" src="https://github.com/user-attachments/assets/abfd6348-1e18-4a6d-9dbd-9b358fc8f7e0" />
 
