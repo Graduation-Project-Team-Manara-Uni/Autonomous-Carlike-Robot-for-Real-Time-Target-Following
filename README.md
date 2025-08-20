@@ -83,7 +83,7 @@ Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
   1. Clone the repository:
    git clone https://github.com/Graduation-Project-team-manara-uni/Autonomous-Carlike-Robot-for-Real-Time-Target-Following.git
    cd Autonomous-Carlike-Robot-for-Real-Time-Target-Following
-  2. Install Jetpack and Python dependencies in this repository: ```plaintext https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image```
+  2. Install Jetpack and Python dependencies in this repository: ```https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image```
   3. MATLAB simulation:
      open and run Parameters.m
      open and run Simulink.slx
@@ -92,7 +92,7 @@ Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
      Ensure you have ROS Noetic installed.
      write roslaunch carlike robot.launch on the terminal.
   5.  How to run the project.
-     write ```plaintext python3 IMU.py and vision.py and controller.py on the terminal```
+     write ```python3 IMU.py and vision.py and controller.py on the terminal```
 ## 7. Robot Design:
    Assembled Robot:
    <img width="500" alt="image" src="https://github.com/user-attachments/assets/ac2cd55e-d18c-4170-8212-73894de6b0d3" />
