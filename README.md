@@ -13,9 +13,9 @@ An autonomous car-like robot capable of following a moving target in real-time. 
 1. [Overview](#-overview)  
 2. [Features](#-features)  
 3. [Project Structure](#-project-structure)  
-4. [Installation & Usage](#️-installation--usage)  
-5. [Robot Design](#-robot-design)  
-6. [Simulations & Results](#-simulations--results)  
+4. [Installation & Usage](#-Installation-&-Usage)  
+5. [Robot Design](#-Robot-Design)  
+6. [Simulations & Results](#-Simulations-&-Results)  
 7. [Team Members](#-team-members)  
 8. [License](#-license)  
 
