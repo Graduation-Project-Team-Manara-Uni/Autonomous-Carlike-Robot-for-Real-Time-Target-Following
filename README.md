@@ -1,11 +1,11 @@
 # Autonomous Car-like Robot for Real-Time Target Following  
 
-An autonomous car-like robot capable of following a moving target in real-time. Powered by an **NVIDIA Jetson Nano** and an **Intel RealSense D435i** depth camera with an integrated IMU, the system combines **Computer Vision** and **Control Theory** to achieve robust performance.  
+An autonomous car-like robot capable of following a moving target in real-time. Powered by an **NVIDIA Jetson Nano** and an **Intel RealSense D435i** depth camera with an integrated IMU, the system combines **Deep Learning**, **Computer Vision** and **Control Theory** to achieve robust performance.  
 
 - **Object detection**: MobileNetV2-SSD for real-time tracking  
 - **Control**: Lyapunov optimization & Robust Sliding Mode Control  
 - **Simulation**: MATLAB/Simulink and ROS (RViz visualization)  
-- **Applications**: Human-following robots, autonomous ground vehicles, research & teaching  
+- **Applications**: object-following (leader-folloeing) robots, autonomous ground vehicles, research & teaching  
 
 ---
 
@@ -95,14 +95,14 @@ Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
      write python3 IMU.py and vision.py and controller.py on the terminal
 ## 7. Robot Design:
    Assembled Robot:
-   <img width="1078" height="450" alt="image" src="https://github.com/user-attachments/assets/ac2cd55e-d18c-4170-8212-73894de6b0d3" />
-   <img width="573" height="450" alt="image" src="https://github.com/user-attachments/assets/6a59f33f-ecf0-482f-bd17-0a81143dc047" />
-   <img width="469" height="352" alt="image" src="https://github.com/user-attachments/assets/a07bab66-7124-49aa-b457-c61811bfdbb6" />
-   <img width="571" height="429" alt="image" src="https://github.com/user-attachments/assets/2ff2c59a-bf2f-47a8-9644-fb8ca0205ceb" />
+   <img width="500" alt="image" src="https://github.com/user-attachments/assets/ac2cd55e-d18c-4170-8212-73894de6b0d3" />
+   <img width="500"  alt="image" src="https://github.com/user-attachments/assets/6a59f33f-ecf0-482f-bd17-0a81143dc047" />
+   <img width="500"  alt="image" src="https://github.com/user-attachments/assets/a07bab66-7124-49aa-b457-c61811bfdbb6" />
+   <img width="500"  alt="image" src="https://github.com/user-attachments/assets/2ff2c59a-bf2f-47a8-9644-fb8ca0205ceb" />
   Fabricated Parts:
-   <img width="476" height="402" alt="image" src="https://github.com/user-attachments/assets/290bf0db-97ed-40cd-84a2-e5699b4651df" />
-   <img width="513" height="374" alt="image" src="https://github.com/user-attachments/assets/8ccf7e98-fe7a-4307-baee-d66c7f069be3" />
-   <img width="644" height="374" alt="image" src="https://github.com/user-attachments/assets/abfd6348-1e18-4a6d-9dbd-9b358fc8f7e0" />
+   <img width="400"  alt="image" src="https://github.com/user-attachments/assets/290bf0db-97ed-40cd-84a2-e5699b4651df" />
+   <img width="400"  alt="image" src="https://github.com/user-attachments/assets/8ccf7e98-fe7a-4307-baee-d66c7f069be3" />
+   <img width="400"  alt="image" src="https://github.com/user-attachments/assets/abfd6348-1e18-4a6d-9dbd-9b358fc8f7e0" />
 
 ## 8. Simulations & Experimental Results:
    
