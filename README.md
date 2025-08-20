@@ -16,7 +16,7 @@ the project combines Computer Vision and Control Theory to achieve this goal. Th
 - MATLAB/curve fitting for steering angle
 - Python main codes
 5.Project Structure
-  Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
+-Autonomous-Carlike-Robot-for-Real-Time-Target-Following/
    python_codes/
            controller.py
            vision.py
