@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>  
+	<param name="robot_description" 
+	command="$(find xacro)/xacro '$(find RViz_Simulation_Package)/urdf/robot.xacro'"/> 
+	<node name="robot_state_publisher" 
+	pkg="robot_state_publisher" 
+	type="robot_state_publisher" /> 
+	<node name="rviz" pkg="rviz" type="rviz" 
+	args="-d $(find RViz_Simulation_Package)/rviz/robot.rviz" />
+	<node name="target_node" pkg="carlike" type="target.py"/>
+	<node name="broadcaster_node" pkg="carlike" type="broadcaster.py"/>
+	<node name="camera_node" pkg="carlike" type="camera.py"/>
+	<node name="controller_node" pkg="carlike" type="controller.py"/>
+	<node name="server_node" pkg="assign2" type="server.py"/>
+</launch>

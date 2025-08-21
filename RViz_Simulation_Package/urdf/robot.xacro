@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+<robot name="uni-robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+	<xacro:include filename="$(find RViz_Simulation_Package)/urdf/params.xacro" />
+	
+	<material name="red"> 
+		<color rgba="0.6 0 0 1" /> 
+	</material>
+	
+	<material name="black"> 
+		<color rgba="0.1 0.1 0.1 1" /> 
+	</material>
+	
+	<link name="world"/>	
+	<link name="body"> 
+		<visual> 
+			<origin rpy="0 0 0" xyz="0 0 ${base_altitude + base_height/2}" /> 
+			<geometry> 
+				<box size="${base_length} ${base_width} ${base_height}" /> 
+			</geometry> 
+			<material name="gray"> 
+				<color rgba="0.3 0.3 0.3 1" /> 
+			</material> 
+		</visual> 
+	</link>  
+	
+	<link name="right_wheel"> 
+		<visual> 
+			<origin rpy="1.5702 0 0" xyz="${-offset} ${-base_width/2-wheel_length/2} ${wheel_radius}"/> 
+			<geometry> 
+				<cylinder radius="${wheel_radius}" length="${wheel_length}" /> 
+			</geometry>
+			<material name="black"/> 
+		</visual> 
+	</link> 
+	
+	<link name="left_wheel"> 
+		<visual> 
+			<origin rpy="1.5702 0 0" xyz="${-offset} ${base_width/2+wheel_length/2} ${wheel_radius}"/> 
+			<geometry> 
+				<cylinder radius="${wheel_radius}" length="${wheel_length}" /> 
+			</geometry>
+			<material name="black"/> 
+		</visual> 
+	</link>
+	 <link name="right_front_wheel"> 
+		<visual> 
+			<origin rpy="1.5702 0 0" xyz="0 0 0"/> 
+			<geometry> 
+				<cylinder radius="${wheel_radius}" length="${wheel_length}" /> 
+			</geometry>
+			<material name="black"/> 
+		</visual> 
+	</link> 
+	<link name="left_front_wheel"> 
+		<visual> 
+			<origin rpy="1.5702 0 0" xyz="0 0 0"/> 
+			<geometry> 
+				<cylinder radius="${wheel_radius}" length="${wheel_length}" /> 
+			</geometry>
+			<material name="black"/> 
+		</visual> 
+	</link>
+	 
+
+	
+	<link name="camera"> 
+		<visual> 
+			<geometry> 
+				<cylinder radius="${camera_radius}" length="${camera_length}" /> 
+			</geometry> 
+			<material name="red"/>  
+		</visual> 
+	</link>
+	
+	<joint name="world_to_body" type="fixed"> 
+		<parent link="world" /> 
+		<child link="body" /> 
+	</joint>
+	
+	<joint name="body_to_left_wheel" type="fixed"> 
+		<parent link="body" /> 
+		<child link="left_wheel" /> 
+	</joint> 
+	
+	<joint name="body_to_right_wheel" type="fixed"> 
+		<parent link="body" /> 
+		<child link="right_wheel" /> 
+		
+	</joint> 
+	
+	<joint name="body_to_right_front_wheel" type="fixed"> 
+		<parent link="body" /> 
+		<child link="right_front_wheel" /> 
+		<origin xyz="${offset} ${-base_width/2-wheel_length/2} ${wheel_radius}" /> 
+		<axis xyz="0 0 1" /> 
+		<limit effort="10" velocity="1" lower="-1.57" upper="1.57" />
+		
+	</joint> 
+	
+	<joint name="body_to_left_front_wheel" type="fixed"> 
+		<parent link="body" /> 
+		<child link="left_front_wheel" />
+		<origin xyz="${offset} ${base_width/2+wheel_length/2} ${wheel_radius}" /> 
+		<axis xyz="0 0 1" /> 
+		<limit effort="10" velocity="1" lower="-1.57" upper="1.57" /> 
+	</joint>
+	
+	<joint name="body_to_camera" type="fixed"> 
+		<parent link="body" /> 
+		<child link="camera" /> 
+		<origin xyz="${offset} 0 ${base_altitude + base_height + camera_length/2}" rpy="0 0 0" /> 
+	</joint>  
+	       
+</robot>
